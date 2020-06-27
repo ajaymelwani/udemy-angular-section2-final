@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-servers',
+  //selector: '[app-servers]', // Like attribute
+  //selector: '.app-servers', // Like class
+  selector: 'app-servers', // Like Element
   template: `
   <app-server></app-server>
   <app-server></app-server>`,
@@ -13,4 +15,5 @@ export class ServersComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 }
